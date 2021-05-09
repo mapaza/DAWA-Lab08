@@ -1,0 +1,217 @@
+{
+	"info": {
+		"_postman_id": "16301685-a955-4711-b38f-54b1484bfa9b",
+		"name": "DAWA-Lab08",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"name\":\"Mariam Apaza\",\r\n    \"number\":\"895623569\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/persons/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						""
+					]
+				},
+				"description": "1er dato de prueba insertado a MongoDB - Atlas"
+			},
+			"response": []
+		},
+		{
+			"name": "POST2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"name\":\"Norman Bates\",\r\n    \"number\":\"784452689\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/persons/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						""
+					]
+				},
+				"description": "2do dato de prueba insertado a MongoDB - Atlas"
+			},
+			"response": []
+		},
+		{
+			"name": "POST3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"name\":\"Dylan Masset\",\r\n    \"number\":\"451256238\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/persons/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						""
+					]
+				},
+				"description": "3er dato de prueba insertado a MongoDB - Atlas"
+			},
+			"response": []
+		},
+		{
+			"name": "POST4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"name\":\"Norma Bates\",\r\n    \"number\":\"451245563\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/persons/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						""
+					]
+				},
+				"description": "4to dato de prueba insertado a MongoDB - Atlas"
+			},
+			"response": []
+		},
+		{
+			"name": "POST5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"name\":\"Alex Romero\",\r\n    \"number\":\"784512569\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/persons/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						""
+					]
+				},
+				"description": "3er dato de prueba insertado a MongoDB - Atlas"
+			},
+			"response": []
+		},
+		{
+			"name": "POST6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \r\n    \"name\":\"Emma Decody\",\r\n    \"number\":\"123784596\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/persons/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						""
+					]
+				},
+				"description": "6to dato de prueba insertado a MongoDB - Atlas"
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/persons/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"persons",
+						""
+					]
+				},
+				"description": "Petición GET que obtiene todos los datos pertenecientes a la colección PERSONS EN DAWA-LAB8"
+			},
+			"response": []
+		}
+	]
+}
